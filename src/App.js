@@ -1,8 +1,14 @@
 import React from 'react';
-
+import Lab1Image from  './Lab1.jpg';
 function App() {
-  const value = 'World';
-  return <div>Hello {value}</div>;
+  return( 
+ <div
+ <p>
+            I did my homework!
+        </p>
+        <img src={Lab1Image}/>
+    </div>;
+);
 }
 
 export default App;
