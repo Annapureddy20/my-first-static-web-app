@@ -1,12 +1,9 @@
-import React from 'react';
-import Lab1Image from './Lab1.jpg';
+import './App.css';
+import RoutesTree from './RoutesTree';
 
 function App() {
   return (
-    <div>
-      <p>I did my homework!</p>
-      <img src={Lab1Image} alt="Lab1" />
-    </div>
+    <RoutesTree />
   );
 }
 
