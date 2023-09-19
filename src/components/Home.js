@@ -1,3 +1,14 @@
+import p1 from './p1.jpg';
+import p2 from './p2.jpg';
+import p3 from './p3.jpg';
+import p4 from './p4.jpg';
+import p5 from './p5.jpg';
+import p6 from './p6.jpg';
+import p7 from './p7.jpg';
+import p8 from './p8.jpg';
+import p9 from './p9.jpg';
+import p10 from './p10.jpg';
+
 const Home = () => {
 
     return (
@@ -58,7 +69,7 @@ const Home = () => {
 
 
                         <center>
-                            <img src="P1.png" alt="Input attendance village" />
+                            <img src={p1} alt="Input attendance village" />
                             <figcaption>Pic 1: Input attendance village</figcaption>
                         </center>
 
@@ -74,12 +85,12 @@ const Home = () => {
 
                         <h2>2.1 Technical Flow Diagram</h2>
                         <center>
-                            <img src="P2.jpg" alt="Fig 1: Technical flow diagram of the system" />
+                            <img src={p2} alt="Fig 1: Technical flow diagram of the system" />
                             <figcaption>Fig 1: Technical flow diagram of the system</figcaption>
                         </center>
                         <h2>Technical Flow Diagram Portrayal</h2>
                         <center>
-                            <img src="P3.jpg" alt="Fig 2: Architecture diagram of the system" />
+                            <img src={p3} alt="Fig 2: Architecture diagram of the system" />
                             <figcaption>Fig 2: Architecture diagram of the system</figcaption>
                         </center>
                         <p>The above circuit outline shows how an OLED Display and Fingerprint Sensor is interfaced with Node MCU ESP8266
@@ -93,12 +104,12 @@ const Home = () => {
                             case, the sensor didn't work at comparably interface OLED Vcc pin 3.3V of Node MCU.</p>
                         <h2>Data Sets:</h2>
                         <center>
-                            <img src="P4.jpg" alt="Data set1: Collected the information from village workers" />
+                            <img src={p4} alt="Data set1: Collected the information from village workers" />
                             <figcaption>Data set1: Collected the information from village workers</figcaption>
                         </center>
                         <br></br>
                         <center>
-                            <img src="P5.jpg" alt="Data set2: Called off attendance procedure of village workers" />
+                            <img src={p5} alt="Data set2: Called off attendance procedure of village workers" />
                             <figcaption>Data set2: Called off attendance procedure of village workers</figcaption>
                         </center>
                         <h2>Outcome</h2>
@@ -108,7 +119,7 @@ const Home = () => {
                             device is connected to the Node MCU module
                             hotspot of the mobile/tab.</p>
                         <center>
-                            <img src="P6.jpg" alt="Pic1: biometric device to recognize the fingerprint of the worker" />
+                            <img src={p6} alt="Pic1: biometric device to recognize the fingerprint of the worker" />
                             <figcaption>Pic1: biometric device to recognize the fingerprint of the worker</figcaption>
                         </center>
                         <h2>Working Procedure</h2>
@@ -116,12 +127,12 @@ const Home = () => {
                             While keeping the finger on the device,
                             it will take the fingerprint and store it as a number in the Node MCU module.</p>
                         <center>
-                            <img src="P7.jpg" alt="Pic2: Biometric device to recognize and display “welcome” message" />
+                            <img src={p7} alt="Pic2: Biometric device to recognize and display “welcome” message" />
                             <figcaption>Pic2: Biometric device to recognize and display “welcome” message</figcaption>
                         </center>
                         <p>If the fingerprint isn't matched, it will display an error message as shown in the figure below.</p>
                         <center>
-                            <img src="P8.jpg" alt="Pic3: Biometric device to recognize not matched fingerprint" />
+                            <img src={p8} alt="Pic3: Biometric device to recognize not matched fingerprint" />
                             <figcaption>Pic3: Biometric device to recognize not matched fingerprint</figcaption>
                         </center>
                         <h3>Final Result</h3>
@@ -129,7 +140,7 @@ const Home = () => {
                             the date and time of logging of the user at the end
                             of work; if we place the finger twice, it displays at which time you leave from the work.</p>
                         <center>
-                            <img src="P9.jpg" alt="Pic4: Biometric attendance date and time report" />
+                            <img src={p9} alt="Pic4: Biometric attendance date and time report" />
                             <figcaption>Pic4: Biometric attendance date and time report</figcaption>
                         </center>
                         <h3>Benefit and Impact on Society</h3>
@@ -139,7 +150,7 @@ const Home = () => {
                             have no work during summer. It also provides work
                             to the people in the villages during the summer.</p>
                         <center>
-                            <img src="P10.jpg" alt="Pic5: The Village workers and VRSEC: IT students EPIC project team" />
+                            <img src={p10} alt="Pic5: The Village workers and VRSEC: IT students EPIC project team" />
                             <figcaption>Pic5: The Village workers and VRSEC: IT students EPIC project team</figcaption>
                         </center>
 
