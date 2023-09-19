@@ -1,13 +1,13 @@
-import p1 from './p1.jpg';
-import p2 from './p2.jpg';
-import p3 from './p3.jpg';
-import p4 from './p4.jpg';
-import p5 from './p5.jpg';
-import p6 from './p6.jpg';
-import p7 from './p7.jpg';
-import p8 from './p8.jpg';
-import p9 from './p9.jpg';
-import p10 from './p10.jpg';
+import p1 from './P1.png';
+import p2 from './P2.jpg';
+import p3 from './P3.jpg';
+import p4 from './P4.jpg';
+import p5 from './P5.jpg';
+import p6 from './P6.jpg';
+import p7 from './P7.jpg';
+import p8 from './P8.jpg';
+import p9 from './P9.jpg';
+import p10 from './P10.jpg';
 
 const Home = () => {
 
