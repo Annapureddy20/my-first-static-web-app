@@ -1,5 +1,7 @@
 import React from 'react';
 
+import imgResource from './m1.png';
+
 const Font = () => {
     return (
         <html lang="en">
@@ -40,7 +42,8 @@ const Font = () => {
                     <li>Run the application, and you will see the desired font applied.</li>
                 </ol>
                 
-
+                <br />
+                <img src={imgResource} height={800} width={1000} />
             </body>
         </html>
     );
