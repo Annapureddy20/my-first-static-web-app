@@ -1,6 +1,6 @@
 import React from 'react';
 
-import imgResource from './m1.png';
+import lab4 from './m1.png';
 
 const Font = () => {
     return (
@@ -43,7 +43,7 @@ const Font = () => {
                 </ol>
                 
                 <br />
-                <img src={imgResource} height={800} width={1000} />
+                <img src={lab4} height={800} width={1000} alt='lab4'/>
             </body>
         </html>
     );
